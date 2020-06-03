@@ -3,6 +3,14 @@
 //Debug the type of data provided
 //Return the types concatenated in a single variable
 
+function moreAboutHome(housename, area, distancefrom) {
+    var housename, area, distancefrom;
+    let temp  = typeof(housename);
+    let temp1 = typeof(area);
+    let temp2 = typeof(distancefrom);
+    return tempV = temp + temp1 + temp2;
+}
+
 //Progression 2:
 //Check if the data given is of the right type
 //parents = String, noOfSiblings = Number, isNuclearFamily = Boolean
